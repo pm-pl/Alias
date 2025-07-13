@@ -10,8 +10,8 @@ declare(strict_types=1);
 namespace JavierLeon9966\Alias;
 
 use Generator;
-use poggit\libasynql\DataConnector;
-use SOFe\AwaitGenerator\Await;
+use JavierLeon9966\Alias\libs\_99e9a27ed5b60166\poggit\libasynql\DataConnector;
+use JavierLeon9966\Alias\libs\_99e9a27ed5b60166\SOFe\AwaitGenerator\Await;
 
 final class RawQueries{
 	public function __construct(private DataConnector $conn) {}
